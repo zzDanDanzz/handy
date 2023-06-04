@@ -1,0 +1,11 @@
+ ################
+ #
+ ##  ffmpeg  -loglevel info -f concat -safe 0  -i join-Title.ffmpeg -c copy   "Whole Title.mkv"
+ #
+
+file '2023-05-09_20-41-03.mkv'
+file '2023-05-09_20-41-46.mkv'
+file '2023-05-09_20-48-50.mkv'
+file '2023-05-09_20-51-51.mkv'
+file '2023-05-09_20-55-38.mkv'
+file '2023-05-09_20-58-26.mkv'
