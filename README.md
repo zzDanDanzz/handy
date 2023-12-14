@@ -3,9 +3,7 @@ Library to remove silent parts of a media file
 
 https://github.com/lagmoellertim/unsilence
 
-`unsilence.exe in.mkv out.mkv -sl -30 -t 4 -ss 10`
-
-`unsilence.exe in.mkv out.mkv -sl -18 -stt 0.3 -ss 10`
+`unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 12 -stt 0.2 -sit 0.1 -st 0.05`
 
 ## join ffmpeg
 run this command on `join-Title.ffmpeg`
