@@ -3,12 +3,16 @@ Library to remove silent parts of a media file
 
 https://github.com/lagmoellertim/unsilence
 
-`unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 12 -stt 0.2 -sit 0.1 -st 0.05`
+```
+unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 12 -stt 0.2 -sit 0.1 -st 0.05
+```
 
 ## join ffmpeg
 run this command on `join-Title.ffmpeg`
 
-`ffmpeg  -loglevel info -f concat -safe 0  -i join-Title.ffmpeg -c copy   "Whole Title.mkv"`
+```
+ffmpeg  -loglevel info -f concat -safe 0  -i join-Title.ffmpeg -c copy   "Whole Title.mkv"
+```
 
 ## AutoHotKey
 File: `fastaf.ahk`
@@ -32,10 +36,14 @@ gc=git commit -m $*
 ...
 ```
 take note of the conversion between a bash alias and cmd doskey thing:
-`alias gb="git branch" => gb=git branch $*`
+```
+alias gb="git branch" => gb=git branch $*
+```
 
 then run this in cmd:
 
-`reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\Users\Dan\Desktop\macros.doskey\"" /f`
+```
+reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=\"C:\Users\Dan\Desktop\macros.doskey\"" /f
+```
 
 but replace `C:\Users\Dan\Desktop\macros.doskey\` with the path of wherever you put the `macros.doskey` file
