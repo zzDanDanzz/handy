@@ -7,11 +7,16 @@ https://github.com/lagmoellertim/unsilence
 unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 12 -stt 0.2 -sit 0.1 -st 0.05
 ```
 
-## join ffmpeg
+## ffmpeg: join
 run this command on `join-Title.ffmpeg`
 
 ```
 ffmpeg  -loglevel info -f concat -safe 0  -i join-Title.ffmpeg -c copy   "Whole Title.mkv"
+```
+
+## ffmpeg: speed up by 1.5
+```
+ffmpeg -i input.mp4 -filter_complex "[0:v]setpts=0.67*PTS[v];[0:a]atempo=1.5[a]" -map "[v]" -map "[a]" output.mp4
 ```
 
 ## AutoHotKey
