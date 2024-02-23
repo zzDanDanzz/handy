@@ -1,6 +1,8 @@
 ## unsilence
 Library to remove silent parts of a media file
 
+tip: there is also an -as option to control the speed of audible parts
+
 https://github.com/lagmoellertim/unsilence
 
 ```
