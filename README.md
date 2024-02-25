@@ -54,3 +54,9 @@ reg add "HKCU\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macro
 ```
 
 but replace `C:\Users\Dan\Desktop\macros.doskey\` with the path of wherever you put the `macros.doskey` file
+
+## git
+
+get total number of modified files, as well as number of added and deleted lines: 
+
+`git diff --shortstat`
