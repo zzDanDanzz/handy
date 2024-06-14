@@ -60,3 +60,9 @@ but replace `C:\Users\Dan\Desktop\macros.doskey\` with the path of wherever you 
 get total number of modified files, as well as number of added and deleted lines: 
 
 `git diff --shortstat`
+
+## scrcpy 
+
+mirrors Android devices (video and audio) connected via USB or over TCP/IP
+
+the `scrcpy-guide.sh` file contains useful options
