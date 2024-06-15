@@ -65,4 +65,4 @@ get total number of modified files, as well as number of added and deleted lines
 
 mirrors Android devices (video and audio) connected via USB or over TCP/IP
 
-the `scrcpy-guide.sh` file contains useful options
+the [scrcpy-guide.md](scrcpy-guide.md) file contains useful options
