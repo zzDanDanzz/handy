@@ -1,5 +1,5 @@
 {
-  "keyMappings": "# Insert your preferred key mappings here.\n\nmap gX closeTabsOnRight \nmap gx closeOtherTabs\n\nmap H previousTab \nmap L nextTab",
+  "keyMappings": "# Insert your preferred key mappings here.\n\nmap gX closeTabsOnRight \nmap gx closeOtherTabs\n\nmap H previousTab \nmap L nextTab\n\nmap J goBack \nmap K goForward",
   "linkHintCharacters": "asdfghjklqwertyuiopzxcvbnm23;",
   "settingsVersion": "2.1.2",
   "exclusionRules": [
