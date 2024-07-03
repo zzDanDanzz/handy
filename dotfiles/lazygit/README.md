@@ -1,0 +1,1 @@
+make sure to install [delta](https://github.com/dandavison/delta) and in your `~/.gitconfig` make sure to add side-by-side view [entry](https://github.com/dandavison/delta?tab=readme-ov-file#side-by-side-view) in the config 
