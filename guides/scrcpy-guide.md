@@ -14,9 +14,11 @@ scrcpy --shortcut-mod=lctrl
 
 ## super useful shortcuts
 
-- Click on HOME MOD+h | Middle-click
-- Click on BACK MOD+b | MOD+Backspace | Right-click²
-- Click on APP_SWITCH MOD+s | 4th-click³
+- Click on HOME MOD+h: | Middle-click
+- Click on BACK MOD+b: | MOD+Backspace | Right-click²
+- Click on APP_SWITCH: MOD+s | 4th-click³
+- Click on VOLUME_UP:	MOD+↑ (up)
+- Click on VOLUME_DOWN:	MOD+↓ (down)
 
 ---
 
