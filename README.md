@@ -7,7 +7,7 @@ tip: there is also an -as option to control the speed of audible parts
 https://github.com/lagmoellertim/unsilence
 
 ```
-unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 1000000 -stt 0.2 -sit 0.1 -st 0.05 -t 16
+unsilence 1-data-and-map.mkv out4.mkv -sl -27 -ss 1000000 -stt 0.2 -sit 0.1 -st 0.05 -t 16 -ci
 ```
 
 ## ffmpeg: join
